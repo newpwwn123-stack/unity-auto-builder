@@ -1,0 +1,52 @@
+# Unity Auto-Builder .gitignore
+
+# Build outputs
+build/
+dist/
+bin/
+obj/
+
+# Unity specific
+Library/
+Temp/
+Logs/
+UserSettings/
+*.csproj
+*.sln
+*.unityproj
+.vs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.exe
+*.app
+*.dmg
+*.zip
+*.ipa
+*.apk
+
+# Projects directory (optional - comment out if you want to track projects)
+# projects/
+
+# Node modules (if using any build tools)
+node_modules/
+package-lock.json
